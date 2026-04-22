@@ -1,7 +1,7 @@
 # Flight Delay Prediction using Logistic Regression
 **Jack McDonough, Xinwen Fang — BU MET CS 777**
 
-A large-scale flight delay prediction pipeline built on Apache Spark and deployed on Google Cloud Dataproc. Two logistic regression implementations are provided: a hand-rolled full batch gradient descent model and an MLlib-based model using Spark's built-in L-BFGS optimizer.
+A large-scale flight delay prediction pipeline built on Apache Spark and deployed on Google Cloud Dataproc. Two logistic regression implementations are provided: a hand-rolled full batch gradient descent model and an MLlib-based model.
 
 ---
 
@@ -9,7 +9,7 @@ A large-scale flight delay prediction pipeline built on Apache Spark and deploye
 | File | Description |
 |---|---|
 | `grad_desc_logreg.py` | Custom logistic regression via full batch gradient descent |
-| `mllib_logreg.py` | Logistic regression using Apache Spark MLlib (L-BFGS optimizer) |
+| `mllib_logreg.py` | Logistic regression using Apache Spark MLlib |
 
 ---
 
